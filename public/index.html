@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="sticky top-0">
         <div class="flex items-center h-20 bg-slate-100">
             <div class="flex items-center justify-between container mx-auto relative px-5 py-3">
                 <div class="top-0 w-52">
@@ -23,33 +23,32 @@
                     </div>
                     <div class="flex justify-between gap-3">
                         <a class="px-5 py-2 text-white bg-zinc-700 font-semibold rounded-xl" href="">Sign In</a>
-                        <a class="px-5 py-2 bg-orange-400 rounded-xl"href="">Sign Up</a>
+                        <a class="px-5 py-2 bg-orange-400 font-semibold rounded-xl"href="">Sign Up</a>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
     <main>
-        <section class="flex bg-slate-200">
-            <div>
-                <h1><span>Shiftbook</span> - The Best Solution For Employee Management.</h1>
-                <h2>Reliable & Efficient</h2>
-                <p>A web based employee attendance app with tons of features for all kinds of workers</p>
-                <div>
-                    <a href="">Try It For Free</a>
-                    <a href="">Learn More</a>
+        <section class="flex justify-between items-center bg-slate-200 px-20 py-10">
+            <div class="flex flex-col text-zinc-700">
+                <h1 class="text-4xl font-bold py-2"><span class="text-orange-400">Shift</span><span class="text-black">book</span> - The Best Solution For Employee Management.</h1>
+                <p class="text-xl py-3 font-medium"><span class="text-orange-400">Reliable</span> & <span class="text-orange-400">Efficient</span> web based employee attendance app with tons of features for all kinds of workers</p>
+                <div class="flex gap-5 text-xl py-10">
+                    <a class="px-5 py-2 text-white bg-zinc-700 font-semibold rounded-xl" href="#">Try It For Free</a>
+                    <a class="px-5 py-2 bg-orange-400 font-semibold rounded-xl" href="#">Learn More</a>
                 </div>
-                <h3>Trusted by more than 1000 companies</h3>
-                <div>
-                    <img src="https://www.hadirr.com/static/images/clients/kpp-pratama.png" alt="">
-                    <img src="https://www.hadirr.com/static/images/clients/antam.png" alt="">
-                    <img src="https://www.hadirr.com/static/images/clients/jasaraharja.png" alt="">
-                    <img src="https://www.hadirr.com/static/images/clients/pelindo.png" alt="">
-                    <img src="https://www.hadirr.com/static/images/clients/biofarma.png" alt="">
+                <h3 class="text-xl py-5">Trusted by more than 1000 companies</h3>
+                <div class="flex">
+                    <img class="w-40 h-20" src="https://www.hadirr.com/static/images/clients/kpp-pratama.png" alt="">
+                    <img class="w-40 h-20" src="https://www.hadirr.com/static/images/clients/antam.png" alt="">
+                    <img class="w-40 h-20" src="https://www.hadirr.com/static/images/clients/jasaraharja.png" alt="">
+                    <img class="w-40 h-20" src="https://www.hadirr.com/static/images/clients/pelindo.png" alt="">
+                    <img class="w-40 h-20" src="https://www.hadirr.com/static/images/clients/biofarma.png" alt="">
                 </div>
             </div>
-            <div>
-                <img src="https://www.hadirr.com/static/images/Main_Header_Hadirr_App.png" alt="">
+            <div class="flex flex-col justify-center items-center px-5 py-24">
+                <img class="w-[90%] h-[100%]" src="https://www.hadirr.com/static/images/Main_Header_Hadirr_App.png" alt="">
             </div>
         </section>
     </main>
